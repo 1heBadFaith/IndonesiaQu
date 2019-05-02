@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="6dp"
+    app:cardCornerRadius="20dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/parent"
+            android:layout_margin="15dp"
+            android:layout_marginTop="22dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="313dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/azedo"
+                android:text="Indonesia"
+                android:layout_marginLeft="14dp"
+                android:textColor="#CC3636"
+                android:textSize="80dp"/>
+
+            <TextView
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/azedo"
+                android:text="Qu"
+                android:textColor="#000"
+                android:textSize="50dp"
+                android:layout_gravity="center_vertical"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:textColor="#222222"
+            android:text="Aplikasi ini dibuat dengan tujuan agar para Remaja maupun Anak-anak yang setiap hari-nya tak bisa lepas dengan smartphone kesayangan-nya dapat mengenal/setidaknya mengetahui tentan Budaya Negara-nya Sendiri.
+
+Tujuan Lain-nya juga agar para siswa SD s/d SMK dapat mudah belajar tentang budaya, sejarah, dan seni INDONESIA
+
+Semoga Aplikasi ini bermanfaat bagi kalian :D"/>
+
+    </LinearLayout>
+
+
+
+</android.support.v7.widget.CardView>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="20dp"
+    android:elevation="6dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/parent"
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/azedo"
+                android:text="Indonesia"
+                android:layout_marginLeft="8dp"
+                android:textColor="#CC3636"
+                android:textSize="50dp"
+                android:textAlignment="textEnd"/>
+
+            <TextView
+                android:layout_width="35dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/azedo"
+                android:text="Qu"
+                android:textColor="#000"
+                android:textSize="30dp"
+                android:layout_gravity="center_vertical"/>
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:textColor="#3D3B3B"
+                android:fontFamily="@font/indigo"
+                android:text="Developers"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="120dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="12dp"
+                android:layout_height="120dp"
+                android:src="@drawable/gws"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="13dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Muhammad Azhar Najib"
+                    android:textColor="#000"
+                    android:textSize="17dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="18 October 2005"/>
+
+                <TextView
+                    android:textColor="#413F3F"
+                    android:layout_marginTop="12dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Azhar Lahir di Tasikmalaya, dan Kegilaan-nya atas Teknologi Membuatnya jadi gila hal yang berbau Teknologi dan Juga Games yang Bergenre MOBA/FPS:D"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="120dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="12dp"
+                android:layout_height="120dp"
+                android:src="@drawable/beduls"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="13dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Abdullah Sulam"
+                    android:textColor="#000"
+                    android:textSize="17dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="21 July 2005"/>
+
+                <TextView
+                    android:textColor="#413F3F"
+                    android:layout_marginTop="12dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Abdullah Lahir di Depok, dan Kertertarikan-nya atas Teknologi Membuatnya Selalu Mengarungi Social Media, dan Mempelajari tentang Treding Gadget"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

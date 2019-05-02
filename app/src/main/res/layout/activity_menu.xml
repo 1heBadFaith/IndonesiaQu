@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MenuActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_marginTop="12dp"
+                android:id="@+id/parent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/azedo"
+                    android:text="Indonesia"
+                    android:layout_marginLeft="80dp"
+                    android:textColor="#CC3636"
+                    android:textSize="50dp"
+                    android:textAlignment="textEnd"/>
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/azedo"
+                    android:text="Qu"
+                    android:textColor="#000"
+                    android:textSize="30dp"
+                    android:layout_gravity="center_vertical"/>
+            </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/parent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/hiasan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.synnapps.carouselview.CarouselView
+                        android:id="@+id/carousel"
+                        android:layout_width="match_parent"
+                        android:layout_height="220dp"
+                        app:fillColor="#FFFFFFFF"
+                        app:pageColor="#00000000"
+                        app:radius="6dp"
+                        app:slideInterval="800"
+                        app:strokeColor="#FF777777"
+                        app:strokeWidth="1dp" />
+                </RelativeLayout>
+
+
+
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                android:layout_marginTop="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kata Mereka Tentang Indonesia"
+                android:textSize="18dp"
+                android:layout_marginLeft="8dp"
+                android:textStyle="bold"/>
+
+
+
+
+                        <android.support.v7.widget.RecyclerView
+                            android:id="@+id/kataMereka"
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            app:layoutManager="android.support.v7.widget.LinearLayoutManager"
+                            android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_marginTop="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yuk Pelajari Budaya"
+                android:textSize="20dp"
+                android:layout_marginLeft="12dp"
+                android:textStyle="bold"/>
+
+
+
+                        <android.support.v7.widget.RecyclerView
+                            android:id="@+id/budaya"
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            app:layoutManager="android.support.v7.widget.LinearLayoutManager"
+                            android:layout_height="wrap_content"/>
+
+
+
+            <TextView
+                android:layout_marginTop="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yuk Pelajari Seni"
+                android:textSize="20dp"
+                android:layout_marginLeft="12dp"
+                android:textStyle="bold"/>
+
+
+
+                        <android.support.v7.widget.RecyclerView
+                            android:id="@+id/seni"
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            app:layoutManager="android.support.v7.widget.LinearLayoutManager"
+                            android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_marginTop="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yuk Pelajari Sejarah"
+                android:textSize="20dp"
+                android:layout_marginLeft="12dp"
+                android:textStyle="bold"/>
+
+
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:scrollbars="none"
+                    android:layout_marginTop="2dp"
+                    android:layout_height="wrap_content">
+
+                        <android.support.v7.widget.RecyclerView
+                            android:id="@+id/sejarah"
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            app:layoutManager="android.support.v7.widget.LinearLayoutManager"
+                            android:layout_height="wrap_content"/>
+                </HorizontalScrollView>
+
+            <TextView
+                android:layout_marginTop="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tips-Tips"
+                android:textSize="20dp"
+                android:layout_marginLeft="12dp"
+                android:textStyle="bold"/>
+
+
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/tips"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        app:layoutManager="android.support.v7.widget.LinearLayoutManager"
+                        android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>
