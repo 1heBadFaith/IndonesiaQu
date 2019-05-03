@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/qudus"
+    android:background="@drawable/backgroundsplash"
     tools:context=".SplashScreen">
 
     <LinearLayout
@@ -22,7 +22,7 @@
             android:fontFamily="@font/azedo"
             android:text="Indonesia"
             android:layout_gravity="center_vertical"
-            android:textColor="#CC3636"
+            android:textColor="#FFF"
             android:textSize="70dp"/>
 
         <TextView
