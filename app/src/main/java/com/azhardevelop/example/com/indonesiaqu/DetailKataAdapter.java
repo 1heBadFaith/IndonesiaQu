@@ -11,11 +11,11 @@ import android.widget.TextView;
 class DetailKataAdapter extends RecyclerView.Adapter<DetailKataAdapter.KataHolder>{
 
     private String[] namaOrang ={
-            "-Barrack Obama", "Anonymous"
+            "-Barrack Obama", "-Anonymous", "-Azhar", "-Abdullah"
     };
 
     private String[] katanya ={
-            "Kata Obama", "Kata Anonim"
+            "Kata Obama", "Kata Anonim", "Indonesia Ku Aneh", "Indonesia Bau Banyak Sampah"
     };
 
     Context context;

@@ -58,6 +58,7 @@ public class MenuActivity extends AppCompatActivity {
         recycleSejarah.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false));
 
         DetailSejarahAdapter sejarahAdapter = new DetailSejarahAdapter(MenuActivity.this);
+        recycleSejarah.setAdapter(sejarahAdapter);
         //Tips
         recyclerTips = findViewById(R.id.tips);
         recyclerTips.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false));
