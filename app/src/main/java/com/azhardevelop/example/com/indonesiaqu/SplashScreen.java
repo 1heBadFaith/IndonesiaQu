@@ -1,13 +1,9 @@
 package com.azhardevelop.example.com.indonesiaqu;
 
 import android.content.Intent;
-import android.graphics.Color;
+import android.os.Bundle;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-import android.text.SpannableString;
-import android.text.style.ForegroundColorSpan;
-import android.text.style.RelativeSizeSpan;
 import android.widget.ProgressBar;
 
 public class SplashScreen extends AppCompatActivity {
