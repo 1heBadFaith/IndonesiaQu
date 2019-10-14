@@ -16,7 +16,7 @@
             android:id="@+id/kataMereka"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Kata Mereka..."
+            android:text="Kata Mereka Tentang Indonesia..."
             android:textSize="20sp"
             android:layout_marginLeft="12dp"/>
 
